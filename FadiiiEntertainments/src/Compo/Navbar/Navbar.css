@@ -1,0 +1,134 @@
+*{
+    background-color: #f3f2e7;
+    padding-top: 0;
+}
+
+
+.Navbar-container{
+   
+    width: 10rem;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #f3f2cb; */
+    
+    
+}
+
+.Navbar-separator{
+    /* border: #e4e019 solid; */
+    width: 5px;
+    height: 110%;
+    position: absolute;
+    right: 0rem;
+    top: -1rem;
+    /* background-color: #51088db2; */
+
+    background-color: rgba(20, 141, 9, 0.945);
+    box-shadow: 1px 1px 1px 1px rgba(127, 199, 121, 0.945);
+}
+
+.Navbar-list{
+    list-style-type: none;
+   
+}
+
+
+
+.Navbar-img{
+    /* border: #c4c009 solid; */
+    /* border-radius: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 9rem;
+    /* margin-left: 1.5 rem; */
+    position: relative;
+    bottom: 1.5rem;
+    left: 0.5rem;
+
+}
+
+.Navbar-Home{
+    /* border: black solid; */
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #e4e019;
+    border-radius: 5px;
+    font-size: small;
+    padding-top: 1.5rem;
+    background-color: #f1f0da;
+    
+}
+
+.Navbar-Home:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.Navbar-Deals{
+    /* border: black solid; */
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #e4e019;
+    border-radius: 5px;
+    font-size: small;
+    padding-top: 1.5rem;
+    background-color: #f1f0da;
+}
+.Navbar-Deals:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.Navbar-Promotions{
+    /* border: black solid; */
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #e4e019;
+    border-radius: 5px;
+    font-size: small;
+    padding-top: 1.5rem;
+    background-color: #f1f0da;
+}
+
+.Navbar-Promotions:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.Navbar-Contact{
+    /* border: black solid; */
+    margin-bottom: 3rem;
+    height: 4rem;
+    width: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px #e4e019;
+    border-radius: 5px;
+    font-size: small;
+    padding-top: 1.5rem;
+    background-color: #f1f0da;
+}
+
+.Navbar-Contact:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+ 

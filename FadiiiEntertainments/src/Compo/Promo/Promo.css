@@ -1,0 +1,8 @@
+.promo{
+    position: fixed;
+    left: 10rem;
+    /* padding-left: 5rem; */
+    height: 100%;
+    width: 88.19%;
+    border: solid black;
+}
